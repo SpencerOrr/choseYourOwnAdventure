@@ -1,6 +1,6 @@
-﻿// Spencer orr
-//thursday october 27 2022
-// chose you own adventure 
+﻿// Spencer Orr
+//Thursday October 27 2022
+//Chose your own adventure Game
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,7 +25,7 @@ namespace choseYourOwnAdventure
         {
             InitializeComponent();
             // initial message 
-            descriptionLabel.Text = "pick your class";
+            descriptionLabel.Text = "Pick your class";
             choice1Button.Text = "Mage";
             choice2Button.Text = "Fighter";
             choice3Button.Text = "Wretch";
@@ -291,7 +291,7 @@ namespace choseYourOwnAdventure
                     Thread.Sleep(2000);
                     Refresh();
 
-                    descriptionLabel.Text = "You relies you are holding a staff with knowledge of one spell clothed in cloth.";
+                    descriptionLabel.Text = "You realise you are holding a staff with knowledge of one spell clothed in cloth.";
 
                     Thread.Sleep(2000);
                     Refresh();
@@ -316,8 +316,8 @@ namespace choseYourOwnAdventure
                     break;
                 case 3:
                     descriptionLabel.Text = "Your flimsy mage arms can't swing hard enough and so your staff bounces harmlessly off the zombie and it turns then process to eat you.  play again?";
-                    choice1Button.Text = "yes?";
-                    choice2Button.Text = "no?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 4:
                     descriptionLabel.Text = "The bolt of magic you send out tears a hole straight through the zombie.";                                                        
@@ -340,8 +340,8 @@ namespace choseYourOwnAdventure
                 case 6:
                     pictureBox4.Image = Properties.Resources.zombie_image;
                     descriptionLabel.Text = "It appears your cowardice has attracted more zombies you get mauled and die. Play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 8:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
@@ -352,8 +352,8 @@ namespace choseYourOwnAdventure
                 case 9:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 10:
                     pictureBox4.Image = Properties.Resources.campfire_image;
@@ -364,8 +364,8 @@ namespace choseYourOwnAdventure
                 case 11:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
                     descriptionLabel.Text = "As you try to run towards the crossbow your flimsy mage legs fail on you and you fall. The zombie process to shoot you with the crossbow. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 12:
                     descriptionLabel.Text = "You wake up in an unknown cemetery";
@@ -377,7 +377,7 @@ namespace choseYourOwnAdventure
                     Thread.Sleep(2000);
                     Refresh();
 
-                    descriptionLabel.Text = "You relies up holding a battle axe and a Woden shield clothed in fur.";
+                    descriptionLabel.Text = "You realise up holding a battle axe and a Woden shield clothed in fur.";
 
                     Thread.Sleep(2000);
                     Refresh();
@@ -404,8 +404,8 @@ namespace choseYourOwnAdventure
                 case 13:               
                     descriptionLabel.Text = "The zombie falls as your axe impales its stomach. You approach it to retrieve your axe and the zombie process to grab you and kill you.  play again?";
 
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 14:
                     descriptionLabel.Text = "As you  cleave its legs from underneath the zombie it collapses and you walk past it.";
@@ -432,20 +432,20 @@ namespace choseYourOwnAdventure
                     choice2Button.Text = "Accept your fate";
                     break;
                 case 17:
-                    descriptionLabel.Text = "You relies your lost honour and accept your life as forfeit. play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You realise your lost honour and accept your life as forfeit. play again?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 18:
                     descriptionLabel.Text = "Your hurt honour is too much to over come and you get defeated in battle. play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 19:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "You pick up the coin which opens a sealed door. The door leads to a magical campfire that gives you a sense of safety  play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 20:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
@@ -456,19 +456,19 @@ namespace choseYourOwnAdventure
                 case 21:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 22:
                     pictureBox4.Image = Properties.Resources.campfire_image;
-                    descriptionLabel.Text = "You charge forward with your shield raised and you let out a guttural cry as a arrows impact your shield. then you proceed to kill the zombie. behind the zombie is a magical campfire that gives you a sense of safety  play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You charge forward with your shield raised and you let out a guttural cry as a arrows impact your shield. then you proceed to kill the zombie. Behind the zombie is a magical campfire that gives you a sense of safety  play agian?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 23:
                     descriptionLabel.Text = "As you run towards the crossbow an arrow hits straight through the shield and you die.  play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 24:
                     descriptionLabel.Text = "You wake up in an unknown cemetery";
@@ -481,7 +481,7 @@ namespace choseYourOwnAdventure
                     Refresh();
 
 
-                    descriptionLabel.Text = "You relies you only have a club and are scarsely clothed.";
+                    descriptionLabel.Text = "You realise you only have a club and are scarsely clothed.";
 
 
                     Thread.Sleep(2000);
@@ -546,8 +546,8 @@ namespace choseYourOwnAdventure
                 case 30:
                     pictureBox4.Image = Properties.Resources.zombie_image;
                     descriptionLabel.Text = "Your cowardliness not to face a challenge has attracted more zombies you get mauled and die.  play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 31:
@@ -560,22 +560,22 @@ namespace choseYourOwnAdventure
                 case 32:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 33:
                     pictureBox4.Image = Properties.Resources.campfire_image;
-                    descriptionLabel.Text = "You charge forward with your club raised and you let out a guttural cry as you hit arrows out of your way. then you proceed to kill the zombie with a brutal attack. behind the zombie is a magical campfire that gives you a sense of safety . play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You charge forward with your club raised and you let out a guttural cry as you hit arrows out of your way. then you proceed to kill the zombie with a brutal attack. Behind the zombie is a magical campfire that gives you a sense of safety . play agian?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 34:
 
                     descriptionLabel.Text = "As you run towards the crossbow an arrow hits home as you fall and you die.   play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 99:
@@ -774,7 +774,7 @@ namespace choseYourOwnAdventure
                     Thread.Sleep(2000);
                     Refresh();
 
-                    descriptionLabel.Text = "You relies you are holding a staff with knowledge of one spell clothed in cloth.";
+                    descriptionLabel.Text = "You realise you are holding a staff with knowledge of one spell clothed in cloth.";
 
                     Thread.Sleep(2000);
                     Refresh();
@@ -799,8 +799,8 @@ namespace choseYourOwnAdventure
                     break;
                 case 3:
                     descriptionLabel.Text = "Your flimsy mage arms can't swing hard enough and so your staff bounces harmlessly off the zombie and it turns then process to eat you.  play again?";
-                    choice1Button.Text = "yes?";
-                    choice2Button.Text = "no?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 4:
                     descriptionLabel.Text = "The bolt of magic you send out tears a hole straight through the zombie.";
@@ -823,8 +823,8 @@ namespace choseYourOwnAdventure
                 case 6:
                     pictureBox4.Image = Properties.Resources.zombie_image;
                     descriptionLabel.Text = "It appears your cowardice has attracted more zombies you get mauled and die. Play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 8:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
@@ -835,8 +835,8 @@ namespace choseYourOwnAdventure
                 case 9:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 10:
                     pictureBox4.Image = Properties.Resources.campfire_image;
@@ -847,8 +847,8 @@ namespace choseYourOwnAdventure
                 case 11:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
                     descriptionLabel.Text = "As you try to run towards the crossbow your flimsy mage legs fail on you and you fall. The zombie process to shoot you with the crossbow. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 12:
                     descriptionLabel.Text = "You wake up in an unknown cemetery";
@@ -860,7 +860,7 @@ namespace choseYourOwnAdventure
                     Thread.Sleep(2000);
                     Refresh();
 
-                    descriptionLabel.Text = "You relies up holding a battle axe and a Woden shield clothed in fur.";
+                    descriptionLabel.Text = "You realise up holding a battle axe and a Woden shield clothed in fur.";
 
                     Thread.Sleep(2000);
                     Refresh();
@@ -887,8 +887,8 @@ namespace choseYourOwnAdventure
                 case 13:
                     descriptionLabel.Text = "The zombie falls as your axe impales its stomach. You approach it to retrieve your axe and the zombie process to grab you and kill you.  play again?";
 
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 14:
                     descriptionLabel.Text = "As you  cleave its legs from underneath the zombie it collapses and you walk past it.";
@@ -915,20 +915,20 @@ namespace choseYourOwnAdventure
                     choice2Button.Text = "Accept your fate";
                     break;
                 case 17:
-                    descriptionLabel.Text = "You relies your lost honour and accept your life as forfeit. play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You realise your lost honour and accept your life as forfeit. play again?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 18:
                     descriptionLabel.Text = "Your hurt honour is too much to over come and you get defeated in battle. play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 19:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "You pick up the coin which opens a sealed door. The door leads to a magical campfire that gives you a sense of safety  play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 20:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
@@ -939,19 +939,19 @@ namespace choseYourOwnAdventure
                 case 21:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 22:
                     pictureBox4.Image = Properties.Resources.campfire_image;
-                    descriptionLabel.Text = "You charge forward with your shield raised and you let out a guttural cry as a arrows impact your shield. then you proceed to kill the zombie. behind the zombie is a magical campfire that gives you a sense of safety  play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You charge forward with your shield raised and you let out a guttural cry as a arrows impact your shield. then you proceed to kill the zombie. Behind the zombie is a magical campfire that gives you a sense of safety  play agian?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 23:
                     descriptionLabel.Text = "As you run towards the crossbow an arrow hits straight through the shield and you die.  play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 24:
                     descriptionLabel.Text = "You wake up in an unknown cemetery";
@@ -964,7 +964,7 @@ namespace choseYourOwnAdventure
                     Refresh();
 
 
-                    descriptionLabel.Text = "You relies you only have a club and are scarsely clothed.";
+                    descriptionLabel.Text = "You realise you only have a club and are scarsely clothed.";
 
 
                     Thread.Sleep(2000);
@@ -1029,8 +1029,8 @@ namespace choseYourOwnAdventure
                 case 30:
                     pictureBox4.Image = Properties.Resources.zombie_image;
                     descriptionLabel.Text = "Your cowardliness not to face a challenge has attracted more zombies you get mauled and die.  play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 31:
@@ -1043,22 +1043,22 @@ namespace choseYourOwnAdventure
                 case 32:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 33:
                     pictureBox4.Image = Properties.Resources.campfire_image;
-                    descriptionLabel.Text = "You charge forward with your club raised and you let out a guttural cry as you hit arrows out of your way. then you proceed to kill the zombie with a brutal attack. behind the zombie is a magical campfire that gives you a sense of safety . play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You charge forward with your club raised and you let out a guttural cry as you hit arrows out of your way. then you proceed to kill the zombie with a brutal attack. Behind the zombie is a magical campfire that gives you a sense of safety . play agian?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 34:
 
                     descriptionLabel.Text = "As you run towards the crossbow an arrow hits home as you fall and you die.   play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 99:
@@ -1109,7 +1109,7 @@ namespace choseYourOwnAdventure
                     Thread.Sleep(2000);
                     Refresh();
 
-                    descriptionLabel.Text = "You relies you are holding a staff with knowledge of one spell clothed in cloth.";
+                    descriptionLabel.Text = "You realise you are holding a staff with knowledge of one spell clothed in cloth.";
 
                     Thread.Sleep(2000);
                     Refresh();
@@ -1134,8 +1134,8 @@ namespace choseYourOwnAdventure
                     break;
                 case 3:
                     descriptionLabel.Text = "Your flimsy mage arms can't swing hard enough and so your staff bounces harmlessly off the zombie and it turns then process to eat you.  play again?";
-                    choice1Button.Text = "yes?";
-                    choice2Button.Text = "no?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 4:
                     descriptionLabel.Text = "The bolt of magic you send out tears a hole straight through the zombie.";
@@ -1158,8 +1158,8 @@ namespace choseYourOwnAdventure
                 case 6:
                     pictureBox4.Image = Properties.Resources.zombie_image;
                     descriptionLabel.Text = "It appears your cowardice has attracted more zombies you get mauled and die. Play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 8:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
@@ -1170,8 +1170,8 @@ namespace choseYourOwnAdventure
                 case 9:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 10:
                     pictureBox4.Image = Properties.Resources.campfire_image;
@@ -1182,8 +1182,8 @@ namespace choseYourOwnAdventure
                 case 11:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
                     descriptionLabel.Text = "As you try to run towards the crossbow your flimsy mage legs fail on you and you fall. The zombie process to shoot you with the crossbow. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 12:
                     descriptionLabel.Text = "You wake up in an unknown cemetery";
@@ -1195,7 +1195,7 @@ namespace choseYourOwnAdventure
                     Thread.Sleep(2000);
                     Refresh();
 
-                    descriptionLabel.Text = "You relies up holding a battle axe and a Woden shield clothed in fur.";
+                    descriptionLabel.Text = "You realise up holding a battle axe and a Woden shield clothed in fur.";
 
                     Thread.Sleep(2000);
                     Refresh();
@@ -1222,8 +1222,8 @@ namespace choseYourOwnAdventure
                 case 13:
                     descriptionLabel.Text = "The zombie falls as your axe impales its stomach. You approach it to retrieve your axe and the zombie process to grab you and kill you.  play again?";
 
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 14:
                     descriptionLabel.Text = "As you  cleave its legs from underneath the zombie it collapses and you walk past it.";
@@ -1250,20 +1250,20 @@ namespace choseYourOwnAdventure
                     choice2Button.Text = "Accept your fate";
                     break;
                 case 17:
-                    descriptionLabel.Text = "You relies your lost honour and accept your life as forfeit. play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You realise your lost honour and accept your life as forfeit. play again?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 18:
                     descriptionLabel.Text = "Your hurt honour is too much to over come and you get defeated in battle. play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 19:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "You pick up the coin which opens a sealed door. The door leads to a magical campfire that gives you a sense of safety  play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 20:
                     pictureBox4.Image = Properties.Resources.bow_zombie_image;
@@ -1274,19 +1274,19 @@ namespace choseYourOwnAdventure
                 case 21:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 22:
                     pictureBox4.Image = Properties.Resources.campfire_image;
-                    descriptionLabel.Text = "You charge forward with your shield raised and you let out a guttural cry as a arrows impact your shield. then you proceed to kill the zombie. behind the zombie is a magical campfire that gives you a sense of safety  play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You charge forward with your shield raised and you let out a guttural cry as a arrows impact your shield. then you proceed to kill the zombie. Behind the zombie is a magical campfire that gives you a sense of safety  play agian?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 23:
                     descriptionLabel.Text = "As you run towards the crossbow an arrow hits straight through the shield and you die.  play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
                     break;
                 case 24:
                     descriptionLabel.Text = "You wake up in an unknown cemetery";
@@ -1299,7 +1299,7 @@ namespace choseYourOwnAdventure
                     Refresh();
 
 
-                    descriptionLabel.Text = "You relies you only have a club and are scarsely clothed.";
+                    descriptionLabel.Text = "You realise you only have a club and are scarsely clothed.";
 
 
                     Thread.Sleep(2000);
@@ -1364,8 +1364,8 @@ namespace choseYourOwnAdventure
                 case 30:
                     pictureBox4.Image = Properties.Resources.zombie_image;
                     descriptionLabel.Text = "Your cowardliness not to face a challenge has attracted more zombies you get mauled and die.  play again?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 31:
@@ -1378,22 +1378,22 @@ namespace choseYourOwnAdventure
                 case 32:
                     pictureBox4.Image = Properties.Resources.campfire_image;
                     descriptionLabel.Text = "The path through the rocks leads to a magical campfire that gives you a sense of safety. play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 33:
                     pictureBox4.Image = Properties.Resources.campfire_image;
-                    descriptionLabel.Text = "You charge forward with your club raised and you let out a guttural cry as you hit arrows out of your way. then you proceed to kill the zombie with a brutal attack. behind the zombie is a magical campfire that gives you a sense of safety . play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    descriptionLabel.Text = "You charge forward with your club raised and you let out a guttural cry as you hit arrows out of your way. then you proceed to kill the zombie with a brutal attack. Behind the zombie is a magical campfire that gives you a sense of safety . play agian?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 34:
 
                     descriptionLabel.Text = "As you run towards the crossbow an arrow hits home as you fall and you die.   play agian?";
-                    choice1Button.Text = "Yes?";
-                    choice2Button.Text = "No?";
+                    choice1Button.Text = "Yes";
+                    choice2Button.Text = "No";
 
                     break;
                 case 99:
