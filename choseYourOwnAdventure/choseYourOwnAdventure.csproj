@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mage Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fighter Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wretch image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crossroads image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zombie image.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fenn002_custom-ca367ccbd6a0996ec1319bd47ce8b5edb48ea0d6-923x1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\campfire image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armour.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armour.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
